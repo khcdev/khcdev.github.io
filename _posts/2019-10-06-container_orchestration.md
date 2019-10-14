@@ -39,7 +39,7 @@ last_modified_at: 2018-08-07T14:00:00+09:00
 
 3. apache mesos
 
-<img src="http://mesos.apache.org/assets/img/mesos_logo_fb_preview.png" width=240 hegith=240>
+<img src="https://mesos.apache.org/assets/img/mesos_logo_fb_preview.png" width=240 hegith=240>
 
 * 수만 대의 물리 시스템으로 확장 가능하도록 설계 돠어있음
 * Hadoop, MPI, Hypertable, Spark같은 응용프로그램을 동적클러스터 환경에서 리소스 공유와 분리를 통해 자원 최적화가 가능
@@ -56,6 +56,8 @@ k8s 클러스터를 간단하게 구축하는 다양한 방법중에 `minikube`�
 # Kubernetes Architecture
 * 아키텍쳐 그림으로 각 내용 전달
 ![k8s_architecture_diagram](https://miro.medium.com/max/3032/1*t5TbINIv1vbTYCTraPy16g.png)
+
+![k8s_architecture_diagram2](http://www.mantech.co.kr/wp-content/uploads/2017/07/Kubernetes.png)
 
 k8s는 두개의 주요한 컴포넌트로 구성 됩니다.
 1. Master
