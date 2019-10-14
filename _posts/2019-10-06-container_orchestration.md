@@ -3,8 +3,6 @@ title:  "Container Orchestration"
 search: false
 categories: 
   - kubenetes
-  - cronjob
-  - schedule
 last_modified_at: 2018-08-07T14:00:00+09:00
 ---
 
