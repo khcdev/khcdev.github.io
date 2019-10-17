@@ -1,9 +1,9 @@
 ---
-title:  "k8s"
+title:  "kubernetes - 2 "
 search: false
 categories: 
   - kubenetes
-last_modified_at: 2019-10-14T14:00:00+09:00
+last_modified_at: 2018-10-14T14:00:00+09:00
 ---
 
 
