@@ -1,0 +1,71 @@
+---
+title:  "flex layout"
+search: false
+categories: 
+  - html
+  - css
+last_modified_at: 2020-04-18T11:00:00+09:00
+---
+
+
+# Flex Layout
+
+- flex box를 사용하기 위해서는 부모요소의 `display`속성에 flex 값을 준다.
+- 부모요소가 inline인 경우 inline-flex를 준다.
+
+위 두 속성은 부모요소에 반드시 부여 해야 하는 유일한 속성이며, 자식 요소는 자동으로 flex item이 된다.
+```
+.flex-container {
+  margin: 10px;
+  padding: 15px;
+  width: 500px;
+  border-radius: 5px;
+  background: #60B99A;
+  display: flex;
+  /* 컨텐츠 균등 정렬
+  justify-content: space-around;
+  */
+  
+  /* flex-direction 
+    flex-direction은 flex컨테이너의 주축 방향을 설정한다.
+  flex-direction: row; 좌 -> 우 배치
+  flex-direction: row-recerse; 우 -> 좌 배치
+  flex-direction: column; 위 -> 아래 수직배치
+  flex-drrection: column-recverse; 아래 -> 위 수직배치
+  */
+  
+  flex-wrap: wrap-reverse;
+  /* flex-wrap
+      flex-wrap의 속성은 flex 컨테이너의 복수 flex item을 1행으로 또는 복수행으로 배치한다.
+      flex-wrap 속성은  flex컨테이너의 width보다 flex item들의 width 합계가 더 큰 경우, 한줄로 표현할 것 인지,
+      여러줄로 표헌할 것인지를 지정하는 속성이다.
+  
+  flex-wrap: nowrap;
+      flex item을 개행하지 않고 1행에 배치한다. flex-wrap 속성의 기본값이다.각
+      flex item의 폭은 flex container에 들어갈 수 있는 크기로 축소된다.
+      하지만 flex-item들의 width의 합계가 flex 컨테이너의 width보다 킅 경우 flex 컨테이너를 넘기게 되는데 이때 
+      overflow: auto;를 사용해주면 스크롤이 생기며 컨테이너를 넘지 않는다.
+      컨테이너가 고정되고 아이템만 스크롤 되는게 특징
+  
+  flex-wrap: wrap;
+      flex item들의 width 합계가 컨테이너의 width 보다 큰 경우, flex item을 복수행에 배치한다.
+      기본적으로 좌->우, 상->하 로 배치된다.
+  flex-wrap: wrap-reverse;
+      wrap과 같으나 하->상으로 배치된다.
+  */
+  
+  /* flex-row
+      
+  */
+}
+
+.flex-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background: #4584b1;
+}
+```

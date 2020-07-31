@@ -119,6 +119,3 @@ api-gateway
 ##### RBAC
     - AWS의 IAM과 같은 기능을 하는 권한 관리 방식
 
-
-
- 
