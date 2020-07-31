@@ -52,8 +52,10 @@ Tip!
 
   3. ##### 실행중인 컨테이너 확인 
 
-  `docker ps` 
-    
+  ``` shell
+  docker ps
+  ```
+  
   `docker container ls (-a)`
 
   4. ##### 실행중인 컨테이너에 command 실행
